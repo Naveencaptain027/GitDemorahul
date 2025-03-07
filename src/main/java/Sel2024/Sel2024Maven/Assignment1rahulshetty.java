@@ -26,6 +26,7 @@ public class Assignment1rahulshetty {
 		driver.findElement(By.name("bday")).sendKeys("18-06-1996");
 		driver.findElement(By.className("btn-success")).click();
 		System.out.println(driver.findElement(By.cssSelector(".alert.alert-success")).getText());
+		System.out.println("Alert success");
 		
 	}
 	
