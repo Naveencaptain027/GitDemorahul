@@ -27,6 +27,8 @@ public class Assignment1rahulshetty {
 		driver.findElement(By.className("btn-success")).click();
 		System.out.println(driver.findElement(By.cssSelector(".alert.alert-success")).getText());
 		System.out.println("Alert success");
+		System.out.println("Alert success1");
+		System.out.println("Alert success1");
 		
 	}
 	
